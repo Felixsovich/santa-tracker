@@ -9,6 +9,7 @@ export interface TrackingEvent {
   status: 'completed' | 'current' | 'pending' | 'warning';
   originalLanguage?: string;
   icon?: string;
+  isNew?: boolean;
 }
 
 export interface DeliverySummary {
